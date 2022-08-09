@@ -1,4 +1,4 @@
-# Résumés
+# Résumés / Curricula Vitarum
 
 Current version (made using LaTeX): [Resume.pdf](Resume.pdf) 
 
