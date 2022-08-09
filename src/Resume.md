@@ -1,4 +1,4 @@
-# Timothy Choi 
+# Timothy Choi
 
 ## About me
 
@@ -6,41 +6,41 @@ I'm a programmer looking for experience in any compute science-related fields. I
 
 ---
 
-## Experience 
+## Experience
 
-### System Engineer 
+### System Engineer
 
-##### Global Technology Integrator Ltd, Hong Kong 
+##### Global Technology Integrator Ltd, Hong Kong
 
-##### 2021 Aug - Nov, Full-time 
+##### 2021 Aug - Nov, Full-time
 
 ---
 
-## Education 
+## Education
 
-### University of Adelaide 
+### University of Adelaide
 
-#### Bachelor of Computer Science 
+#### Bachelor of Computer Science
 
 ##### GPA: 6.5 / 7
 
 ##### 2022 Jan - 2024 Dec
 
-# 
+#
 
-### HKCCCU Logos Academy 
+### HKCCCU Logos Academy
 
-#### HKDSE 
+#### HKDSE
 
-##### Best 5: 22
+##### Best 5: 22 (top ~15%)
 
-##### ICT, Biology, Physics 
+##### ICT, Biology, Physics
 
-##### 2010 Sep - 2021 Jul 
+##### 2010 Sep - 2021 Jul
 
 ---
 
-## Prizes 
+## Prizes
 
 ### Subject Prize: Information and Communicaton Technology
 
@@ -50,34 +50,37 @@ Achiever of the best score amongst peers
 
 ## Certificates
 
-* Microsoft Office Specialist - Expert 
-* ABRSM Grade 8 Piano 
-* ABRSM Grade 5 Music Theory 
+* Microsoft Office Specialist - Expert
+* ABRSM Grade 8 Piano
+* ABRSM Grade 5 Music Theory
 
 ---
 
 ## Skills
 
-* Languages 
-  * Computer 
-    * C 
-    * C++ 
-    * LaTeX 
-    * HTML / CSS / JS 
-    * Python 
-    * MATLAB 
-  * Human 
-    * Cantonese 
-    * English 
-    * Mandarin 
-    * German 
-* CS-related 
-  * Git 
-  * Linux 
-    * Arch 
-    * Ubuntu 
-  * Windows 
-    * Active Directory 
-* Miscellaneous 
-  * CTFs 
-  * Problem-solving 
+* Languages
+  * Computer
+    * C
+    * C++
+    * LaTeX
+    * HTML / CSS / JS
+    * Python
+    * MATLAB
+  * Human
+    * Cantonese
+    * English
+    * Mandarin
+    * German
+* CS-related
+  * Git
+  * Linux
+    * Arch
+    * Ubuntu
+  * Windows
+    * Active Directory
+* Miscellaneous
+  * CTFs
+  * Problem-solving
+  * Piano / Music Theory
+  * Speedcubing
+  
