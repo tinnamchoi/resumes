@@ -36,7 +36,7 @@ I'm a programmer looking for experience in any compute science-related fields. I
 
 ##### ICT, Biology, Physics 
 
-##### 2010 Sep - 2021
+##### 2010 Sep - 2021 Jul 
 
 ---
 
@@ -78,6 +78,6 @@ Achiever of the best score amongst peers
     * Ubuntu 
   * Windows 
     * Active Directory 
-* Miscallaneous 
+* Miscellaneous 
   * CTFs 
   * Problem-solving 
