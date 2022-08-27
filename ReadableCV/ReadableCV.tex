@@ -1,0 +1,90 @@
+% Change the size of the paper your CV will be printed on
+% by entering either a4paper or letterpaper here.
+\documentclass[a4paper]{ReadableCV}
+
+\usepackage{lmodern}
+
+% Set color of body text
+\color{black}
+
+\begin{document}
+	
+% Set page colour using X11names colour definitions
+\setPageColour{white}
+
+% Set header details being aligned to the right or left
+% If an image is displayed it will be shown on the
+% opposite side to what is set here.
+\setHeaderAlignment{left}
+
+% Set colour of all headings, header highlights
+\setHeadingColours{SlateGray3}
+
+% Set image file to be displayed in header
+% If left blank no image is displayed
+%\setImage{profilepic.jpg}
+
+% If image not being displayed then user can
+% move contact details to opposite side of
+% page to name and jobtitle.
+% Use either opposite or below
+\setContactLocation{opposite}
+
+% Set up information needed for header.
+% If you do not want to include certain
+% information use {} instead. 
+\setYourName{Timothy Choi}
+\setYourJobTitle{Computer Science Student}
+\setYourMobileNo{+61 0410 764 553}
+\setYourEmailAddr{tinnam.choi@gmail.com}
+\setYourWebAddr{https://www.linkedin.com/in/tinnamchoi/}
+
+% Display header information 
+\showHeader
+
+% Set up whether section headings are on the left or right
+\setSectionAlignment{left}
+
+% Creates a new section title / heading
+\newHeading{Personal Profile}
+
+I'm a programmer looking for experience in any compute science-related fields. I have experience as a system engineer and have great problem-solving skills. I am fluent in Cantonese, English, and Mandarin, and can speak A1-level German. In my free-time, I like to compete in CTF competitions and improving my coding workflow on Linux. 
+
+\newHeading{Core Skills}
+
+% Add up to nine core skills. If they are
+% all not needed use {} instead.
+\addSkills{C, C++, LaTeX, HTML, CSS, JS, Python, MATLAB}
+		  {Cantonese, English, Mandarin, German}
+		  {Git, Vim, VSCode}
+		  {Linux (Arch, Ubuntu)}
+		  {Windows (Active Directory)}
+		  {CTFs}
+		  {Problem-solving}
+		  {Piano / Music Theory}
+		  {Speedcubing}
+		  
+\newHeading{Work Experience}
+
+% Set up whether job title or company printed first
+% Either use JobFirst or CompanyFirst
+\setJobCompanyOrder{JobFirst}
+
+% This displays the whole of the role information
+% including dates [1], job title [2],
+% company name [3] and role summary [4]
+% If a full history is required use \newrole and \roleAchievements
+% If only a brief description needed then just use \newrole
+\newRole{2021 Aug - Nov}
+        {System Engineer}
+        {Global Technology Integrator Ltd.}
+				{I was responsible for the update of the company's system in both hardware and software. I also helped with the company's workflow by automating some of the tasks.}
+
+% School education
+\newHeading{Education}
+         
+\newCourse{2015 - 2021}{Hong Kong Diploma of Secondary Education}{HKCCCU Logos Academy}{}
+\newCourse{2022 - 2024}{Bachelor of Computer Science}{The University of Adelaide}{}
+          
+
+\end{document}
