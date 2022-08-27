@@ -1,166 +1,52 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
+\documentclass[a4paper]{moderncv}
 
+\usepackage[scale={0.75, 0.81}]{geometry}
 
-\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\moderncvstyle{banking}
+\moderncvcolor{blue}
 
-\usepackage[T1]{fontenc}
+\name{Timothy}{Choi}
+\address{15.20.5/128 Waymouth St, Adelaide, SA 5000}
+\phone[mobile]{+61 0410 764 553}
+\email{tinnam.choi@gmail.com}
+\social[linkedin]{https://www.linkedin.com/in/tinnamchoi/}
+\social[github]{https://github.com/tinnamchoi}
 
-% modern themes
-\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
-
-% character encoding
-\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
-
-% adjust the page margins
-%\usepackage[scale=0.8]{geometry}
- \usepackage[left=2cm, right=2cm, top=1.7cm]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvheadnamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
-
-\usepackage{import}
-
-% personal data
-\name{Odilia}{Almeida} 
-
-\address{28, Rue Marcelin Berthelot, 92120 - Montrouge - France}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
-\phone[mobile]{+33768149269}      % optional, remove / comment the line if not wanted
-%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
-%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
-\email{odilialmeida@gmail.com}                               % optional, remove / comment the line if not wanted
-\homepage{Brésilienne (Visa travail UE)}                         % optional, remove / comment the line if not wanted
-%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
-%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
-
-% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
-%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
-
-% bibliography with mutiple entries
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
-%-----       resume       ---------------------------------------------------------
-\makecvtitle 
-\vspace{-20pt}
-Après 7 ans d'expérience dans la Communication, je suis à la recherche d'un poste dans le domaine des campagnes de marketing.\\
-{ \textbf{Expertise}: Marketing online et offline, Coordination des projets, Branding, Merchandising.\\
-\textbf{Projets réalisés}:http://gnt.globo.com/especiais/projetos-multitelas}
+    \makecvtitle{}
 
-\section{Expériences professionelles}
+    \section{Education}
+        \cventry{2022--2024}{Bachelor of Computer Science}{The University of Adelaide}{Australia}{\textit{GPA: 6.5/7.0}}{}
+        \cventry{2015--2021}{Hong Kong Diploma of Secondary Education}{HKCCCU Logos Academy}{Hong Kong}{}{ICT, Physics, Biology}
 
-\vspace{4pt}
+    \section{Experience}
+        \subsection{Work}
+            \cventry{2021}{System Engineer}{Global Technology Integrator Ltd.}{Hong Kong}{}{Scripting for automating system updates}
 
-\begin{itemize}
+        \subsection{Volunteer}
+            \cventry{2022}{Campus tour support}{The University of Adelaide}{Australia}{}{}
+        
+    \section{Awards}
+        \subsection{Prizes}
+            \cvitemwithcomment{Subject prize}{ICT 2021}{Achiever of the best results amongst peers}
 
-\item{\cventry{Décembre 2014 -- Mars 2017}{Chef de Publicité}{Globosat - Chaîne GNT}{ Rio de Janeiro,Brésil}{}{\vspace{3pt} 
-\begin{itemize}
-\item Élaboration des campagnes et des stratégies de marketing pour les annonceurs.
-\item Gestion des campagnes de marketing online et offline.
-\item  Production des programmes et des vidéos personnalisés pour les marques des annonceurs sur support telévision et site web.
-\item Préparation et coordination des projets de placement de produit et de merchandising pour les clients.
-\end{itemize}
-}}
+        \subsection{Scholarships}
+            \cvitemwithcomment{University of Adelaide}{30\% Global Citizens Scholarship}{Best possible}
 
-\vspace{4pt}
+        \subsection{Certificates}
+            \cvdoubleitem{ABRSM Piano}{Grade 8}{ABRSM Music Theory}{Grade 5}
+            \cvitem{Microsoft Office Specialist}{Expert}
 
-\item{\cventry{Novembre 2011 -- Novembre 2014}{Assistante de Contenu}{Globosat - Chaîne GNT}{Rio de Janeiro, Brésil}{}{\vspace{3pt}
-\begin{itemize}
-\item  Gestion de la production et de la post-production des programmes et des séries télévisées.
-\item  Intégration de tous les secteurs de la chaîne pour la diffusion du contenu.
-\item  Production du contenu et de la mise en scène des saisons de la mode Fashion Rio et São Paulo Fashion Week.
-\end{itemize}
-}}
+    \section{Skills}
+        \subsection{Languages}
+            \cvdoubleitem{Cantonese}{Native}{English}{Fluent}
+            \cvdoubleitem{Mandarin}{Fluent}{German}{Beginner}
 
-\vspace{4pt}
+        \subsection{Computer skills}
+            \cvitem{Languages}{Bash, C, C++, CSS, HTML, JS, \LaTeX{}, MATLAB, Python}
+            \cvitem{Software}{Arch Linux, Git, Microsoft Office, Ubuntu, Vim, VSCode, Windows AD}
 
-\item{\cventry{Novembre 2010 - Novembre 2011}{Stagiaire Production}{Globosat - Chaîne GNT}{Rio de Janeiro, Brésil}{}{\vspace{3pt}
-\begin{itemize}
-\item  Gestion de la production des programmes et des séries télévisées.
-\item  Enregistrement de l'information concernant les programmes sur le site web de la chaîne.
-\item  Production de contenu pour les réseaux sociaux de la chaîne.
-\end{itemize}
-}}
-
-\vspace{4pt}
-
-\item{\cventry{Novembre 2009 - Août 2010}{Stagiaire Communication Internationale}{Petrobras}{Rio de Janeiro, Brésil}{}{\vspace{3pt}
-\begin{itemize}
-\item  Soutien aux activités du département, incluant la production de la revue d'entreprise et des plaquettes institutionnelles.
-\end{itemize}
-}}
-\end{itemize}
-
-\section{Formation}
-
-\vspace{4pt}
-
-\begin{itemize}
-
-\item{\cventry{2014 -- 2015}{ Rio de Janeiro}{Master en Marketing*}{PUC Université}{\textit{Brésil}}{}}
-
-\item{\cventry{2007 -- 2011}{ Rio de Janeiro}{Maitrise en Communication Sociale - Journalisme*}{PUC Université}{\textit{Brésil}}{}}
-* Attestation de comparabilité obtenue via le Département de reconnaissance des diplômes (CIEP)
-\end{itemize}
-
-\vspace{2pt}
-
-\section{Langues}
-
-\vspace{1pt}
-
-\begin{itemize}
-
-\item \textbf{Anglais:} Courant, Capacité Professionelle Complète 
-
-\vspace{1pt}
-
-\item \textbf{Français:} Courant, Capacité Professionelle Complète 
-
-\vspace{1pt}
-
-\item \textbf{Espagnol:} Courant, Compétence Professionnelle
-
-\vspace{1pt}
-
-\item \textbf{Portugais:} Langue maternelle
-
-\end{itemize}
-
-% Publications from a BibTeX file without multibib
-%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
-%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
-\nocite{*}
-\bibliographystyle{plain}
-\bibliography{publications}                        % 'publications' is the name of a BibTeX file
-
-% Publications from a BibTeX file using the multibib package
-%\section{Publications}
-%\nocitebook{book1,book2}
-%\bibliographystylebook{plain}
-%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
-%\nocitemisc{misc1,misc2,misc3}
-%\bibliographystylemisc{plain}
-%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
-
-%-----       letter       ---------------------------------------------------------
+        \subsection{Miscellaneous}
+            \cvitem{Interests}{CTFs, Problem / Puzzle-solving, Piano / Music Theory, Speedcubing}
 
 \end{document}
-
-
-%% end of file `template.tex'.
