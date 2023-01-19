@@ -1,13 +1,21 @@
 default:
-	pdflatex src/letter.tex
-	pdflatex src/letter.tex
-	pdflatex src/resume.tex
-	pdflatex src/resume.tex
+	cd src; \
+	pdflatex letter.tex; \
+	pdflatex letter.tex; \
+	mv letter.pdf ..; \
+	cd src; \
+	pdflatex resume.tex; \
+	pdflatex resume.tex; \
+	mv resume.pdf ..
 
 letter:
-	pdflatex src/letter.tex
-	pdflatex src/letter.tex
+	cd src; \
+	pdflatex letter.tex; \
+	pdflatex letter.tex; \
+	mv letter.pdf ..
 
 resume:
-	pdflatex src/resume.tex
-	pdflatex src/resume.tex
+	cd src; \
+	pdflatex resume.tex; \
+	pdflatex resume.tex; \
+	mv resume.pdf ..
