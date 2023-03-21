@@ -1,6 +1,6 @@
 \input{preamble.tex}
 
-\usepackage[a4paper, total={190mm, 277mm}]{geometry}
+\usepackage[a4paper, left=10mm, right=10mm, top=10mm, bottom=5mm]{geometry}
 
 \begin{document}
   \makecvtitle{}
@@ -11,20 +11,46 @@
     \cventry{2022 Jan -- 2024 Dec}{Bachelor of Computer Science}{The University of Adelaide}{Australia}{\textit{GPA: 6.5/7.0}}{}
 
   \section{Experience}
-    \cventry{2021 Aug -- 2021 Nov}{System Engineer}{Global Technology Integrator Ltd.}{Hong Kong}{}{I spearheaded the automation of our tasks using BAT scripts, including the migration of local accounts to AD accounts and modification of the registry, which enabled parallelization and reduced the human resources needed. Although the original scope of my job was only to do these tasks manually, my efforts to automate them were still greatly appreciated by my supervisors and colleagues as we would not have been able to finish the project on time due to the staff shortage. }
+    \cventry{2021 Aug -- 2021 Nov}{System Engineer}{Global Technology Integrator Ltd.}{Hong Kong}{}{
+      \cvlistitem{Spearheading the automation and parallelization of our tasks, including account migration and registry modification}
+      \cvlistitem{Helping resolve our staff shortage by reducing the manpower and time required for each task}
+      \cvlistitem{Taking the position as a mentor for new staff, helping them understand the technology that we're using}
+    }
     
   \section{Projects}
-    \cventry[0.5em]{2023 Mar -- 2023 Mar}{JavaScript, Spotify API}{The Sound of Personality (\href{https://devpost.com/software/mbti-music}{link})}{Australia}{}{This is my first hackathon, and also my first time using APIs. Our team was a bit disorganized at first as we had no prior experience with hackathons, but we managed make a web app to analyze a person's Spotify listening history and estimate their Myers-Briggs personality type using data from \href{https://www.16personalities.com/articles/music-preferences-by-personality-type}{16personalities}. }
-    \cventry[0.5em]{2022 Nov -- Present}{HTML, CSS, JavaScript}{Negative Base Converter (\href{https://tinnamchoi.github.io/negative-base-converter/}{link})}{Australia}{}{This is a web app that converts numbers from any base to any other base, including negative bases, which have the unique property of being able to represent all positive and negative integers without using a negative sign. As this topic is not very popular, I had to do a lot of research in order to discover an algorithm that can deal with the conversion properly especially when it comes to fractional numbers. }
-    \cventry[0.5em]{2022 Sep -- 2022 Oct}{C++, Make, \LaTeX}{Pokemon Battles}{Australia}{}{My team and I created a text-based, turn-based, player vs. computer Pokemon battle game. The player can choose from a selection of Pokemon and battle against a computer-controlled opponent. I led the coding part of the project, and since my teammates were not as familiar with C++, I often tried to help them learn some of the more difficult concepts and helped them succeed in this course even outside of this project. }
-    \cventry{2021 Sep -- 2021 Dec}{Python, Pillow}{allRGB}{Hong Kong}{}{This is part of a bigger project started by ``deidee'', which has the objective to create images with one pixel for every RGB color, without any duplicate or missing colors. I aimed to create a Python program that would take any image and convert it into an allRGB image. As this was my first programming project ever, my program used the brute-force solution, and although functional, it was quite inefficient. Now that I am more familiar with algorithm design and data structures, I plan to rewrite the program to make it more efficient. }
+    \cventry[0.5em]{2023 Mar -- 2023 Mar}{JavaScript, Spotify API}{The Sound of Personality (\href{https://devpost.com/software/mbti-music}{link})}{Australia}{}{
+      \cvlistitem{Figuring out and troubleshooting the Spotify API to estimate the user's MBTI type based on their music preferences}
+      \cvlistitem{Boosting team morale by encouraging everyone to ensure that we are all motivated to work on the project}
+      \cvlistitem{Demonstrating quick learning skills with my speedy adoptation of the API despite it being my first time dealing with APIs}
+    }
+    
+    \cventry[0.5em]{2022 Nov -- Present}{HTML, CSS, JavaScript}{Negative Base Converter (\href{https://tinnamchoi.github.io/negative-base-converter/}{link})}{Australia}{}{
+      \cvlistitem{Web app that converts numbers from any base to any other base, including negative bases}
+      \cvlistitem{Which have the unique property of being able to represent all positive and negative numbers without using a negative sign}
+      \cvlistitem{Researching an algorithm that can deal with the conversion properly when it comes to fractional numbers}
+    }
+    \cventry[0.5em]{2022 Sep -- 2022 Oct}{C++, Make, \LaTeX}{Pokemon Battles}{Australia}{}{
+      \cvlistitem{Text-based, turn-based, Pokemon battle game where the player battle against a computer-controlled opponent}
+      \cvlistitem{Leading the coding part of the project and helping my teammates learn the more difficult concepts in C++ and OOP}
+      \cvlistitem{Creating a positive work environment and building strong personal relationships with each other}
+    }
+    \cventry{2021 Sep -- 2021 Dec}{Python, Pillow}{allRGB}{Hong Kong}{}{
+      \cvlistitem{Part of a bigger project started by ``deidee'', which has the objective to create images with one pixel for every RGB color}
+      \cvlistitem{My program takes any image and converts it into an allRGB image}
+      \cvlistitem{As this was my first programming project ever, my program used the brute-force solution, it was quite inefficient}
+      \cvlistitem{Now that I am familiar with algorithm design and data structures, I plan to rewrite the program}
+    }
     
   \section{Community involvement}
-    \cventry{2022 Dec -- Present}{Committee Member}{The Computer Science Club at The University of Adelaide}{Australia}{}{As a committee member, I initiated the process of updating the club's website (\href{https://csclub.org.au/}{link}) in order to provide up-to-date information regarding our events for our members, which taught me some web development skills. }
+    \cventry{2022 Dec -- Present}{Committee Member}{The Computer Science Club at The University of Adelaide}{Australia}{}{
+      \cvlistitem{Updating our website to provide up-to-date information regarding our events}
+      \cvlistitem{Collecting feedback from our members and using it to improve our events}
+    }
 
   \section{Skills \& Achievements}
     \subsection{Languages}
       \cvdoubleitem{Proficient}{C++}{\hspace*{-\textwidth{}}\hfill{}Intermediate / Beginner}{Bash, C, CSS, HTML, JS, \LaTeX{}, MATLAB, Python}
+      \cvitem{Human}{English (fluent), Cantonese (native), Mandarin (advanced), German (beginner)}
 
     \subsection{Prizes}
       \cvitemwithcomment{Subject prize}{ICT 2021}{Achiever of the best results amongst peers}
