@@ -6,7 +6,11 @@ default:
 	cd src; \
 	pdflatex resume.tex; \
 	pdflatex resume.tex; \
-	mv resume.pdf ..
+	mv resume.pdf ..; \
+	cd src; \
+	pdflatex cvitae.tex; \
+	pdflatex cvitae.tex; \
+	mv cvitae.pdf ..
 
 letter:
 	cd src; \
@@ -19,3 +23,9 @@ resume:
 	pdflatex resume.tex; \
 	pdflatex resume.tex; \
 	mv resume.pdf ..
+
+cvitae:
+	cd src; \
+	pdflatex cvitae.tex; \
+	pdflatex cvitae.tex; \
+	mv cvitae.pdf ..
