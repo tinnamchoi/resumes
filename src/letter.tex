@@ -1,11 +1,13 @@
 \input{preamble.tex}
 
 \usepackage{ragged2e}
+\usepackage[yyyymmdd]{datetime}
+\renewcommand{\dateseparator}{ }
 
 \begin{document}
   
 \recipient{Company Name}{Company Location}
-\date{2023 February 10}
+\date{\today}
 \opening{Dear Sir or Madam,}
 \closing{Yours faithfully,\vspace{-2em}}
 \makelettertitle
