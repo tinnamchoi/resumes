@@ -1,16 +1,4 @@
-default:
-	cd src; \
-	pdflatex cvitae.tex; \
-	pdflatex cvitae.tex; \
-	mv cvitae.pdf ..; \
-	cd src; \
-	pdflatex letter.tex; \
-	pdflatex letter.tex; \
-	mv letter.pdf ..; \
-	cd src; \
-	pdflatex resume.tex; \
-	pdflatex resume.tex; \
-	mv resume.pdf ..
+all: cvitae letter resume
 
 cvitae:
 	cd src; \
