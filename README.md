@@ -1,9 +1,19 @@
-# Résumés / Curricula Vitarum
+# Résumés / Cover letters
 
-* Current version (made using LaTeX): [resume.pdf](resume.pdf) ([source](src/resume.tex))
-* Cover letter: [letter.pdf](letter.pdf) ([source](src/letter.tex))
-* Curriculum vitae (basically a more comprehensive version of my résumé): [cvitae.pdf](cvitae.pdf) ([source](src/cvitae.tex))
+## Build
 
-Other versions: 
-* [DOCX](src/resume.docx) (outdated) 
-* [Markdown](src/resume.md) (outdated)
+### Compile everything
+
+```sh
+make
+```
+
+### Compile just the resume, and the cover letter respectively
+
+```sh
+make resume
+```
+
+```sh
+make letter
+```
