@@ -1,10 +1,4 @@
-all: cvitae letter resume
-
-cvitae:
-	cd src; \
-	pdflatex cvitae.tex; \
-	pdflatex cvitae.tex; \
-	mv cvitae.pdf ..
+all: letter resume
 
 letter:
 	cd src; \
