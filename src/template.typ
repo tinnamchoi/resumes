@@ -1,6 +1,7 @@
 #import "@preview/fontawesome:0.2.1": *
 
 #let color = rgb("#213983")
+#let lightcolor = rgb("#6c88da")
 
 #let display_name(name: "") = {
   text(size: 24pt, fill: rgb(color))[#name]
@@ -51,15 +52,18 @@
   #show par: set block(spacing: 1em)
   #display_header(name: name, links: links)
   #show heading: it => {
-    set text(fill: rgb(color))
+    let current_color = color
+    if it.depth == 2 {      
+      current_color = lightcolor
+    }
+    set text(fill: current_color)
     v(-0.5em)
     it
     v(-1em)
-    line(length: 100%, stroke: rgb(color))
+    line(length: 100%, stroke: current_color)
   }
-  // #v(1fr)
-  #doc
   #v(1fr)
+  #doc
 ]
 
 #let display_title(
@@ -198,3 +202,36 @@
     right: link("https://" + project_link)[#raw(project_link)]
   )
 ]
+
+#let skill(
+  body,
+  title: "",
+) = {
+  box[
+    #text(weight: "semibold")[#title: ]
+    #body
+  ]
+}
+
+#let technologies(
+  daily_drivers: "",
+  others: "",
+) = {
+  skill(title: "Daily drivers")[#daily_drivers]
+  h(1fr)
+  skill(title: "Familiar")[#others]
+}
+
+#let achievement(
+  body,
+  title: "",
+  subtitle: "",
+) = {
+  box[
+    // #text(weight: "semibold")[#title: ]
+    // #subtitle
+    #skill(title: title)[#subtitle]
+    #h(1fr)
+    #text(style: "italic")[#body]
+  ]
+}

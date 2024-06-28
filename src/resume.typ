@@ -109,4 +109,61 @@
 
 = Volunteering
 
+  // \section{Volunteering}
+  //   \cventry{2023 Jul -- }{Software Developer}{Adelaide Rover Team (\href{https://set.adelaide.edu.au/atcsr/australian-rover-challenge/}{\texttt{set.adelaide.edu.au/atcsr/australian-rover-challenge}})}{Adelaide, Australia}{}{}
+  //   \cventry{2023 Apr -- }{Organizer}{UNIHACK (\href{https://www.unihack.net/}{\texttt{unihack.net}})}{Australia (remote)}{}{}
+  //   \cventry{2022 Dec -- }{Committee member}{The University of Adelaide Computer Science Club (\href{https://www.csclub.org.au/}{\texttt{csclub.org.au}})}{Adelaide, Australia}{}{}
+
+#experience(
+  company: "Adelaide Rover Team",
+  role: "Software Developer",
+  location: "Adelaide, Australia",
+  technologies: "C++, ROS, Git, Linux",
+  from: "2023 Jul",
+)
+- Participating in the Australian Rover Challenge, an annual competition where university students compete in a simulated lunar mission using semi-autonomous rovers that we design and build. Sponsored by Boeing, Caterpillar Inc. (CAT), and more.
+
+#experience(
+  company: "UNIHACK",
+  role: "Organizer",
+  location: "Australia (remote)",
+  technologies: "Slack",
+  from: "2023 Apr",
+)
+- We are the largest hackathon in Australia, where students from all over the country come together to build projects in a weekend, with sponsors from Atlassian, AWS, and more
+
+#experience(
+  company: "The University of Adelaide Computer Science Club",
+  role: "Committee member",
+  location: "Adelaide, Australia",
+  technologies: "Web Development",
+  from: "2022 Dec",
+)
+- As the only club in the university with a dedicated club room on campus, we frequently organize workshops and social events for over 500 members with sponsors from Jane Street, Citadel, VivCourt, and more.
+
 = Skills & Achievements
+
+== Skills & Technologies
+
+#technologies(
+  daily_drivers: "C++, Linux, Git, Just, Typst, GitHub",
+  others: "Python, JavaScript, Atlassian suite, Rust, LaTeX, HTML, CSS",
+)
+
+#skill(title: "Human languages")[English (native), Cantonese (native), Mandarin (C1), German (A2)]
+
+== Prizes & Achievements
+
+#achievement(
+  title: "Subject prize",
+  subtitle: "Information and Communication Technology 2021"
+)[
+  Achiever of the best results amongst peers
+]
+
+#achievement(
+  title: "University of Adelaide Scholarship",
+  subtitle: "30% Global Citizens Scholarship"
+)[
+  Best possible scholarship for international students
+]
