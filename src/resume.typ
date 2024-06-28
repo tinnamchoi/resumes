@@ -48,7 +48,7 @@
 )
 - Improve the interface of debug tools, reducing development time for the team
 - Streamline the process of test case generation, reducing over 90% of the manual work
-- Writing documentation for a code base with \~1 million lines
+- Write documentation for a code base with \~1 million lines
 
 #experience(
   company: "Altacomm Technologies",
@@ -59,7 +59,7 @@
   to: "2024 Mar",
 )
 - Empower student communities by streamlining the logistical processes
-- Build a full-stack contact us and media release page
+- Built a full-stack contact us and media release page
 
 #experience(
   company: "Global Technology Integrator",
@@ -80,8 +80,8 @@
   technologies: "C++, Algorithm Design, Linux",
   project_link: "tinnamchoi.github.io/projects/bmca",
 )
-- Implementing octrees to compress 3D data in $O(N log_8 N)$ time
-- Employing agile methodologies for a group of 7 and enforcing good Git practices such as using conventional commits
+- Implemented octrees to compress 3D data in $O(N log_8 N)$ time
+- Employed agile methodologies for a group of 7 and enforced good Git practices such as using conventional commits
 
 #project(
   title: "Negative Base Converter",
@@ -109,11 +109,6 @@
 
 = Volunteering
 
-  // \section{Volunteering}
-  //   \cventry{2023 Jul -- }{Software Developer}{Adelaide Rover Team (\href{https://set.adelaide.edu.au/atcsr/australian-rover-challenge/}{\texttt{set.adelaide.edu.au/atcsr/australian-rover-challenge}})}{Adelaide, Australia}{}{}
-  //   \cventry{2023 Apr -- }{Organizer}{UNIHACK (\href{https://www.unihack.net/}{\texttt{unihack.net}})}{Australia (remote)}{}{}
-  //   \cventry{2022 Dec -- }{Committee member}{The University of Adelaide Computer Science Club (\href{https://www.csclub.org.au/}{\texttt{csclub.org.au}})}{Adelaide, Australia}{}{}
-
 #experience(
   company: "Adelaide Rover Team",
   role: "Software Developer",
@@ -121,7 +116,7 @@
   technologies: "C++, ROS, Git, Linux",
   from: "2023 Jul",
 )
-- Participating in the Australian Rover Challenge, an annual competition where university students compete in a simulated lunar mission using semi-autonomous rovers that we design and build. Sponsored by Boeing, Caterpillar Inc. (CAT), and more.
+- We participate in the Australian Rover Challenge, an annual competition where university students compete in a simulated lunar mission using semi-autonomous rovers that we design and build. Sponsored by Boeing, Caterpillar Inc. (CAT), and more.
 
 #experience(
   company: "UNIHACK",
@@ -139,7 +134,7 @@
   technologies: "Web Development",
   from: "2022 Dec",
 )
-- As the only club in the university with a dedicated club room on campus, we frequently organize workshops and social events for over 500 members with sponsors from Jane Street, Citadel, VivCourt, and more.
+- As the only club in the university with a dedicated club room on campus, we frequently organize workshops and social events for over 500 members with sponsors from Jane Street, Citadel Securities, VivCourt, and more.
 
 = Skills & Achievements
 
