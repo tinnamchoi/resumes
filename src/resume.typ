@@ -37,8 +37,6 @@
 
 = Experience
 
-// #center_style.update(37.5%)
-
 #experience(
   company: "Dassault Systèmes",
   role: "Software Engineering Working Student",
