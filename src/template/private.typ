@@ -35,18 +35,6 @@
   }
 }
 
-#let display_header(
-  name: "",
-  links: (),
-) = {
-  set align(center)
-  set text(size: 9pt)
-  show par: set block(spacing: 0.25em)
-  display_name(name: name)
-  parbreak()
-  display_links(links: links)
-}
-
 #let display_title(
   title: ""
 ) = {
@@ -58,7 +46,7 @@
 // set the style of center elements
 // modification of this state will apply to all sections from that point onwards until further modification
 
-#let center_style = state("x", 50%)
+#state("center_style", 50%)
 
 // center elements are part of a triple item
 
@@ -69,7 +57,7 @@
 ) = [
   #box[
     #context[
-      #let cs = center_style.get()
+      #let cs = state("center_style").get()
       #let tcs = type(cs)
       #if tcs == length or tcs == ratio or tcs == fraction [
         // middle elements are aligned to a distance from the left edge
@@ -156,104 +144,3 @@
   ]
 }
 
-// main template
-
-#let template(
-  doc,
-  name: "",
-  links: (),
-) = [
-  #set page(margin: 0.75cm)
-  #set text(font: "Rubik", size: 9pt)
-  #show par: set block(spacing: 1em)
-  #display_header(name: name, links: links)
-  #show heading: it => {
-    let current_color = color
-    if it.depth == 2 {      
-      current_color = lightcolor
-    }
-    set text(fill: current_color)
-    v(-0.5em)
-    it
-    v(-1em)
-    line(length: 100%, stroke: current_color)
-  }
-  #v(1fr)
-  #doc
-]
-
-// custom sections
-// mostly syntactic sugar to make the markup more readable
-
-#let education(
-  institution: "",
-  degree: "",
-  grade: "",
-  location: "",
-  from: "",
-  to: "",
-  date: "",
-) = [
-  #thick(
-    title: institution,
-    subtitle: degree,
-    middle: grade,
-    location: location,
-    from: from,
-    to: to,
-    date: date,
-  )
-]
-
-#let experience(
-  company: "",
-  role: "",
-  location: "",
-  technologies: "",
-  from: "",
-  to: "",
-  date: "",
-) = [
-  #thick(
-    title: company,
-    subtitle: role,
-    location: location,
-    middle: technologies,
-    from: from,
-    to: to,
-    date: date,
-  )
-]
-
-#let project(
-  title: "",
-  technologies: "",
-  project_link: "",
-) = [
-  #thin(
-    title: title,
-    center: technologies,
-    right: link("https://" + project_link)[#raw(project_link)]
-  )
-]
-
-#let technologies(
-  daily_drivers: "",
-  others: "",
-) = {
-  skill(title: "Daily drivers")[#daily_drivers]
-  h(1fr)
-  skill(title: "Familiar")[#others]
-}
-
-#let achievement(
-  body,
-  title: "",
-  subtitle: "",
-) = {
-  box[
-    #skill(title: title)[#subtitle]
-    #h(1fr)
-    #text(style: "italic")[#body]
-  ]
-}

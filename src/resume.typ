@@ -1,20 +1,14 @@
-#import "template.typ": *
+#import "preamble.typ": *
 
-#show: doc => template(
-  doc,
-  name: "Timothy Choi",
-  links: (
-    github: "tinnamchoi",
-    email: "tinnam.choi@gmail.com",
-    website: "tinnamchoi.github.io",
-    linkedin: "tinnamchoi",
-  ),
-)
+#show: doc => template(doc)
 
-// comment / uncomment the following lines to use other styles for the center section
-// default is 50%
-// #center_style.update("space_between")
-#center_style.update(40%)
+#set page(margin: 0.75cm)
+
+#header(name: name, links: links)
+
+#v(1fr)
+
+#state("center_style").update(40%)
 
 = Education
 
