@@ -1,8 +1,5 @@
 watch:
-	cd src; \
-	typst watch resume.typ
+	typst watch src/resume.typ ./resume.pdf
 
 resume:
-	cd src; \
-	typst compile resume.typ; \
-	mv resume.pdf ../
+	typst compile src/resume.typ ./resume.pdf
