@@ -1,3 +1,5 @@
+all: resume letter
+
 watch_resume:
 	typst watch src/resume.typ ./resume.pdf
 
@@ -6,3 +8,6 @@ watch_letter:
 
 resume:
 	typst compile src/resume.typ ./resume.pdf
+
+letter:
+	typst compile src/letter.typ ./letter.pdf

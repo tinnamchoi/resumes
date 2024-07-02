@@ -7,15 +7,22 @@ https://tinnamchoi.github.io/resumes/resume.pdf
 ### Compile everything
 
 ```sh
-make
+just
 ```
 
 ### Compile just the resume, and the cover letter respectively
 
 ```sh
-make resume
+just resume
 ```
 
 ```sh
-make letter
+just letter
+```
+
+### Watch (auto-compile)
+
+```
+just watch_resume
+just watch_letter
 ```
