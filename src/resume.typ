@@ -80,16 +80,16 @@
   technologies: "Math, Number Theory, JavaScript",
   project_link: "tinnamchoi.github.io/projects/nbc",
 )
-- Did you know that negative bases can represent negative numbers without using a negative sign?
-- Now you do! Check it out by clicking the link to the right above.
+- Exploring a numeral system that can represent negative numbers without a negative sign
+- Motivated by the lack of existing tools, providing beginners with a better understanding of negative bases
 
 #project(
   title: "Binary Search on Color",
   technologies: "Algorithm Design, JavaScript",
   project_link: "tinnamchoi.github.io/projects/bsoc",
 )
-- Struggling to pick a color? Burdened by the illusion of choice?
-- Pick the exact values using the power of binary search!
+- Devised an algorithm that allows people to search the modern color space of over 16 million colors in just 24 clicks
+- Inspired by the lack of precision in existing tools, providing a better imagination to reality interface
 
 #project(
   title: "Hare-Clark C++",
