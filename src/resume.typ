@@ -35,12 +35,12 @@
   company: "Dassault Systèmes",
   role: "Software Engineering Working Student",
   location: "Munich, Germany",
-  technologies: "C++, mkmk, Jira, BitBucket, NG Jenkins, Python",
+  technologies: "C++, mkmk, Jira, BitBucket, NG Jenkins, Python, Rust",
   from: "2024 May",
 )
-- Improve the interface of debug tools, reducing development time for the team
-- Streamline the process of test case generation, reducing over 90% of the manual work
-- Write documentation for a code base with \~1 million lines
+- Improve the interface of debug tools in C++, reducing development time for the team
+- Streamline the process of test case generation with Python, reducing over 90% of the manual work
+- Develop CI/CD tools in Rust to reduce local build time by 80%
 
 #experience(
   company: "Altacomm Technologies",
@@ -123,7 +123,7 @@
   company: "The University of Adelaide Computer Science Club",
   role: "Committee member",
   location: "Adelaide, Australia",
-  technologies: "Web Development",
+  technologies: "Python, Web Development",
   from: "2022 Dec",
 )
 - As the only club in the university with a dedicated club room on campus, we frequently organize workshops and social events for over 500 members with sponsors from Jane Street, Citadel Securities, VivCourt, and more.
@@ -134,7 +134,7 @@
 
 #technologies(
   daily_drivers: "C++, Linux, Git, Just, Typst, GitHub",
-  others: "Python, JavaScript, Atlassian suite, Rust, LaTeX, HTML, CSS",
+  others: "Python, JavaScript, Atlassian suite, Bash, Rust, LaTeX, HTML, CSS",
 )
 
 #skill(title: "Human languages")[English (native), Cantonese (native), Mandarin (C1), German (A2)]
