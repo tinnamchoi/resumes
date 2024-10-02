@@ -37,6 +37,7 @@
   location: "Munich, Germany",
   technologies: "C++, mkmk, Jira, BitBucket, NG Jenkins, Python, Rust",
   from: "2024 May",
+  to: "Present",
 )
 - Improve the interface of debug tools in C++, reducing development time for the team
 - Streamline the process of test case generation with Python, reducing over 90% of the manual work
@@ -107,6 +108,7 @@
   location: "Adelaide, Australia",
   technologies: "C++, ROS, Git, Linux",
   from: "2023 Jul",
+  to: "Present",
 )
 - We participate in the Australian Rover Challenge, an annual competition where university students compete in a simulated lunar mission using semi-autonomous rovers that we design and build. Sponsored by Boeing, Caterpillar Inc. (CAT), and more.
 
@@ -116,6 +118,7 @@
   location: "Australia (remote)",
   technologies: "Slack",
   from: "2023 Apr",
+  to: "Present",
 )
 - We are the largest hackathon in Australia, where students from all over the country come together to build projects in a weekend, with sponsors from Atlassian, AWS, and more
 
@@ -125,6 +128,7 @@
   location: "Adelaide, Australia",
   technologies: "Python, Web Development",
   from: "2022 Dec",
+  to: "Present",
 )
 - As the only club in the university with a dedicated club room on campus, we frequently organize workshops and social events for over 500 members with sponsors from Jane Street, Citadel Securities, VivCourt, and more.
 
