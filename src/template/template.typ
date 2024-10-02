@@ -122,7 +122,7 @@
     lorem(100)
   },
   closing: "Yours faithfully,",
-  signature: "Firstname Lastname"
+  signature: "Timothy Choi"
 ) = {
   v(1fr)
 
