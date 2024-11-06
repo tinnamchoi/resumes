@@ -9,7 +9,7 @@
   context {
     set align(center)
     set text(size: 9pt)
-    show par: set block(spacing: 0.25em)
+    set par(spacing: 0.25em)
     display_name(name: name)
     parbreak()
     display_links(links: links)
@@ -20,7 +20,7 @@
   doc,
 ) = [
   #set text(font: "Rubik", size: 9pt)
-  #show par: set block(spacing: 1em)
+  #set par(spacing: 1em)
   #show heading: it => {
     let current_color = color
     if it.depth == 2 {      
