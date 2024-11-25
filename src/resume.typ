@@ -108,7 +108,7 @@
   location: "Adelaide, Australia",
   technologies: "C++, ROS, Git, Linux",
   from: "2023 Jul",
-  to: "Present",
+  to: "2024 Jul",
 )
 - We participate in the Australian Rover Challenge, an annual competition where university students compete in a simulated lunar mission using semi-autonomous rovers that we design and build. Sponsored by Boeing, Caterpillar Inc. (CAT), and more.
 
@@ -128,7 +128,7 @@
   location: "Adelaide, Australia",
   technologies: "Python, Web Development",
   from: "2022 Dec",
-  to: "Present",
+  to: "2024 Nov",
 )
 - As the only club in the university with a dedicated club room on campus, we frequently organize workshops and social events for over 500 members with sponsors from Jane Street, Citadel Securities, VivCourt, and more.
 
