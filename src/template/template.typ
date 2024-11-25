@@ -5,14 +5,21 @@
 #let header(
   name: "",
   links: (),
+  subtitle: "",
 ) = {
   context {
     set align(center)
     set text(size: 9pt)
     set par(spacing: 0.25em)
     display_name(name: name)
+    v(0.25em)
     parbreak()
     display_links(links: links)
+    if subtitle != "" {
+      v(0.5em)
+      parbreak()
+      subtitle
+    }
   }
 }
 
