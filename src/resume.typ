@@ -97,10 +97,19 @@
   technologies: "C++, CMake, Data Structures",
   project_link: "tinnamchoi.github.io/projects/hcc",
 )
-- Created for the CS Club committee to verify the results of the `hcvote` Python library
-- After discovering multiple mistakes in the original library, I decided to release this as a better alternative
+- Created for the Computer Science Club committee to automate the vote-counting component of our election process
 
 = Volunteering
+
+#experience(
+  company: "IKOM",
+  role: "Organizer (Cooperations / Kooperationen)",
+  location: "Munich, Germany",
+  technologies: "Communication, Microsoft Teams",
+  from: "2024 Nov",
+  to: "Present",
+)
+- The largest student career fair in Munich with partners such as IMC Trading, think-cell, JetBrains, MathWorks, Amadeus, and more
 
 #experience(
   company: "Adelaide Rover Team",
@@ -110,17 +119,17 @@
   from: "2023 Jul",
   to: "2024 Jul",
 )
-- We participate in the Australian Rover Challenge, an annual competition where university students compete in a simulated lunar mission using semi-autonomous rovers that we design and build. Sponsored by Boeing, Caterpillar Inc. (CAT), and more.
+- We participate in the Australian Rover Challenge, an annual competition where university students compete in a simulated lunar mission using semi-autonomous rovers that we design and build. Sponsored by Boeing, Caterpillar Inc. (CAT), and more
 
 #experience(
   company: "UNIHACK",
-  role: "Organizer",
+  role: "Organizer (Logistics)",
   location: "Australia (remote)",
-  technologies: "Slack",
+  technologies: "Communication, Slack",
   from: "2023 Apr",
   to: "Present",
 )
-- We are the largest hackathon in Australia, where students from all over the country come together to build projects in a weekend, with sponsors from Atlassian, AWS, and more
+- The largest hackathon in Australia with sponsors from Google, Microsoft, Facebook, Atlassian, GitHub, Adobe, and more
 
 #experience(
   company: "The University of Adelaide Computer Science Club",
@@ -130,7 +139,7 @@
   from: "2022 Dec",
   to: "2024 Nov",
 )
-- As the only club in the university with a dedicated club room on campus, we frequently organize workshops and social events for over 500 members with sponsors from Jane Street, Citadel Securities, VivCourt, and more.
+- We frequently organize workshops and social events for over 500 members with sponsors from Jane Street, Citadel, and more
 
 = Skills & Achievements
 
