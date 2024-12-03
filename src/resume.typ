@@ -39,9 +39,9 @@
   from: "2024 May",
   to: "Present",
 )
-- Improve the interface of debug tools in C++, reducing development time for the team
-- Streamline the process of test case generation with Python, reducing over 90% of the manual work
-- Develop CI/CD tools in Rust to reduce local build time by 80%
+- Redefine legacy C++ codebase, improving backwards compatibility while shrinking code size by over 50%
+- Improve efficacy of debug tools by creating a more transparent interface in C++
+- Streamline the development process with Python and Rust, speeding up tasks by 90% in some cases
 
 #experience(
   company: "Altacomm Technologies",
