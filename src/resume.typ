@@ -98,48 +98,61 @@
   project_link: "tinnamchoi.github.io/projects/hcc",
 )
 - Created for the Computer Science Club committee to automate the vote-counting component of our election process
+- Replaces the `hcvote` Python library as previous attempts to use it proved it unwieldy and faulty
+
+#project(
+  title: "Purchasing Power Parity Calculator",
+  technologies: "JavaScript, CSS",
+  project_link: "tinnamchoi.github.io/projects/pppc",
+)
+- Purchasing power parity is a way to compare how much money can buy in different countries
+- Having multiple countries which I call home, this help me get a better idea of my finances
 
 = Volunteering
 
-#experience(
-  company: "IKOM",
-  role: "Organizer (Cooperations / Kooperationen)",
-  location: "Munich, Germany",
-  technologies: "Communication, Microsoft Teams",
-  from: "2024 Nov",
-  to: "Present",
-)
-- The largest student career fair in Munich with partners such as IMC Trading, think-cell, JetBrains, MathWorks, Amadeus, and more
+#grid(columns: (1fr, 1fr), column-gutter: 0.375cm)[
+  #experience(
+    company: "IKOM",
+    role: "Organizer (Cooperations)",
+    technologies: "MS Teams",
+    location: "Munich, Germany",
+    from: "2024 Nov",
+    to: "Present",
+  )
+  - We host the largest student career fair in Munich and excursions with partners such as IMC Trading, think-cell, JetBrains, MathWorks, Amadeus, and more
+][
+  #experience(
+    company: "Adelaide Rover Team",
+    role: "Software Developer",
+    location: "Adelaide, Australia",
+    technologies: "C++, ROS",
+    from: "2023 Jul",
+    to: "2024 Jul",
+  )
+  - We participated in Australian Rover Challenge, where university students compete in a simulated lunar mission using semi-autonomous rovers that we design and build
+]
 
-#experience(
-  company: "Adelaide Rover Team",
-  role: "Software Developer",
-  location: "Adelaide, Australia",
-  technologies: "C++, ROS, Git, Linux",
-  from: "2023 Jul",
-  to: "2024 Jul",
-)
-- We participate in the Australian Rover Challenge, an annual competition where university students compete in a simulated lunar mission using semi-autonomous rovers that we design and build. Sponsored by Boeing, Caterpillar Inc. (CAT), and more
-
-#experience(
-  company: "UNIHACK",
-  role: "Organizer (Logistics)",
-  location: "Australia (remote)",
-  technologies: "Communication, Slack",
-  from: "2023 Apr",
-  to: "Present",
-)
-- The largest hackathon in Australia with sponsors from Google, Microsoft, Facebook, Atlassian, GitHub, Adobe, and more
-
-#experience(
-  company: "The University of Adelaide Computer Science Club",
-  role: "Committee member",
-  location: "Adelaide, Australia",
-  technologies: "Python, Web Development",
-  from: "2022 Dec",
-  to: "2024 Nov",
-)
-- We frequently organize workshops and social events for over 500 members with sponsors from Jane Street, Citadel, and more
+#grid(columns: (1fr, 1fr), column-gutter: 0.375cm)[
+  #experience(
+    company: "UNIHACK",
+    role: "Organizer (Logistics)",
+    location: "Australia (remote)",
+    technologies: "Slack",
+    from: "2023 Apr",
+    to: "Present",
+  )
+  - The largest hackathon in Australia with sponsors from Google, Microsoft, Facebook, Atlassian, GitHub, Adobe, and more
+][
+  #experience(
+    company: "UoA Computer Science Club",
+    role: "Committee member",
+    location: "Adelaide, Australia",
+    technologies: "Python",
+    from: "2022 Dec",
+    to: "2024 Nov",
+  )
+  - We frequently organize workshops and social events for over 500 members, sponsored by Jane Street, Citadel, and more
+]
 
 = Skills & Achievements
 
