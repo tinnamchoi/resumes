@@ -39,9 +39,9 @@
   from: "2024 May",
   to: "Present",
 )
-- Redefine legacy C++ codebase, improving backwards compatibility while shrinking code size by over 50%
-- Improve efficacy of debug tools by creating a more transparent interface in C++
-- Streamline the development process with Python and Rust, speeding up tasks by 90% in some cases
+- Redefine legacy C++ codebase using the pImpl paradigm, improving backwards compatibility while shrinking code by over 50%
+- Improve efficacy of internal debug tools by creating a more intuitive graphical user interface in C++
+- Streamline the development process with Python and Rust, speeding up tasks such as compilation by 90% in some cases
 
 #experience(
   company: "Altacomm Technologies",
@@ -62,9 +62,9 @@
   from: "2021 Aug",
   to: "2021 Nov",
 )
-- Leading a team of 4+ people, spearheaded the automation and parallelization of our tasks
-- Helped resolve our staff shortage by reducing the manpower and time required by \~200%
-- Mentored new staff, helping them understand the technology
+- Leading a team of 4+ people, spearheaded the automation and parallelization of our tasks such as registry modification
+- Helped resolve our staff shortage by reducing the manpower and time required by \~200%, and in so doing beating the deadline
+- Mentored new staff, helping a non-technical audience understand the the basics of Windows AD and Batch scripting
 
 = Projects
 
