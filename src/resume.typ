@@ -26,7 +26,7 @@
   grade: "GPA: 6.33/7",
   location: "Adelaide, Australia",
   from: "2022 Feb",
-  to: "2025 Sep",
+  to: "2025 Mar",
 )
 
 = Experience
