@@ -32,12 +32,21 @@
 = Experience
 
 #experience(
+  company: "Susquehanna International Group",
+  role: "Incoming Software Development Intern",
+  location: "Sydney, Australia",
+  technologies: "C++, Connectivity team",
+  from: "2025 Nov",
+  to: "2026 Feb"
+)
+
+#experience(
   company: "Dassault Systèmes",
   role: "Software Engineer (part-time)",
   location: "Munich, Germany",
   technologies: "C++, mkmk, Jira, BitBucket, NG Jenkins, Python, Rust",
   from: "2024 May",
-  to: "Present",
+  to: "2025 Mar",
 )
 - Refactor legacy C++ codebase using the pImpl paradigm, enhancing backward compatibility and reducing code size by over 50%
 - Enhance internal debugging tools by designing a more intuitive graphical user interface in C++, improving usability and efficiency
@@ -110,49 +119,25 @@
 
 = Volunteering
 
-#grid(columns: (1fr, 1fr), column-gutter: 0.375cm)[
-  #experience(
-    company: "IKOM",
-    role: "Organizer (Cooperations)",
-    technologies: "MS Teams",
-    location: "Munich, Germany",
-    from: "2024 Nov",
-    to: "Present",
-  )
-  - Hosted the largest student career fair in Munich and excursions with 300+ partners such as IMC Trading, think-cell, JetBrains, MathWorks, Amadeus, and more
-][
-  #experience(
-    company: "Adelaide Rover Team",
-    role: "Software Developer",
-    location: "Adelaide, Australia",
-    technologies: "C++, ROS",
-    from: "2023 Jul",
-    to: "2024 Jul",
-  )
-  - Achieved top 5 ranking in Australian Rover Challenge, where university students compete in a simulated lunar mission using semi-autonomous rovers that we design and build
-]
+#experience(
+  company: "IKOM",
+  role: "Organizer (Cooperations)",
+  technologies: "MS Teams",
+  location: "Munich, Germany",
+  from: "2024 Nov",
+  to: "Present",
+)
+- Hosted the largest student career fair in Munich and excursions with 300+ partners such as IMC Trading, JetBrains, and more
 
-#grid(columns: (1fr, 1fr), column-gutter: 0.375cm)[
-  #experience(
-    company: "UNIHACK",
-    role: "Organizer (Logistics)",
-    location: "Australia (remote)",
-    technologies: "Slack",
-    from: "2023 Apr",
-    to: "Present",
-  )
-  - Hosted the largest hackathon in Australia with 339 teams and sponsors from Google, Microsoft, Meta, Atlassian, and more
-][
-  #experience(
-    company: "UoA Computer Science Club",
-    role: "Committee member",
-    location: "Adelaide, Australia",
-    technologies: "Python",
-    from: "2022 Dec",
-    to: "2024 Nov",
-  )
-  - Organized workshops and social events for over 600 paid members, sponsored by Jane Street, Citadel, and more
-]
+#experience(
+  company: "UoA Computer Science Club",
+  role: "Committee member",
+  location: "Adelaide, Australia",
+  technologies: "Web Development, Python, C++",
+  from: "2022 Dec",
+  to: "2024 Nov",
+)
+- Organized workshops and social events for over 600 paid members, sponsored by Jane Street, Atlassian, VivCourt, and more
 
 = Skills & Achievements
 
