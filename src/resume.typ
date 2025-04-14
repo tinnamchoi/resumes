@@ -50,7 +50,8 @@
 )
 - Refactor legacy C++ codebase using the pImpl paradigm, enhancing backward compatibility and reducing code size by over 50%
 - Enhance internal debugging tools by designing a more intuitive graphical user interface in C++, improving usability and efficiency
-- Optimize development workflows with Python and Rust, achieving up to a 90% reduction in task times such as compilations
+- Parse specification files with Python to generate over 2000 comprehensive testcases to ensure there are no regressions
+- Optimize development workflows with Rust, achieving up to a 90% reduction in task times such as compilations
 
 #experience(
   company: "Altacomm Technologies",
@@ -83,15 +84,8 @@
   project_link: "tinnamchoi.github.io/projects/bmca",
 )
 - Developed an octree-based algorithm in C++ to efficiently compress 3D data in $O(N log_8 N)$, optimizing storage and processing
+- Assisting teammates in the implementation of other algorithms such as run-length encoding and Lempel-Ziv compression.
 - Employed agile methodologies for a group of 7 and enforced good Git practices such as using conventional commits
-
-#project(
-  title: "Negative Base Converter",
-  technologies: "Math, Number Theory, JavaScript",
-  project_link: "tinnamchoi.github.io/projects/nbc",
-)
-- Created a converter for negative base numeral systems by researching the mathematical principles behind it
-- Motivated by the lack of existing tools, providing beginners with a better understanding of negative bases
 
 #project(
   title: "Binary Search on Color",
@@ -110,6 +104,14 @@
 - Replaces the `hcvote` Python library as previous attempts to use it proved it unwieldy and faulty
 
 #project(
+  title: "Negative Base Converter",
+  technologies: "Math, Number Theory, JavaScript",
+  project_link: "tinnamchoi.github.io/projects/nbc",
+)
+- Created a converter for negative base numeral systems by researching the mathematical principles behind it
+- Motivated by the lack of existing tools, providing beginners with a better understanding of negative bases
+
+#project(
   title: "Purchasing Power Parity Calculator",
   technologies: "JavaScript, CSS",
   project_link: "tinnamchoi.github.io/projects/pppc",
@@ -120,24 +122,16 @@
 = Volunteering
 
 #experience(
-  company: "IKOM",
-  role: "Organizer (Cooperations)",
-  technologies: "MS Teams",
-  location: "Munich, Germany",
-  from: "2024 Nov",
+  company: "Adelaide Competitive Programming Club",
+  role: "Author",
+  location: "Adelaide, Australia",
+  technologies: "C++, Python",
+  from: "2025 Feb",
   to: "Present",
 )
-- Hosted the largest student career fair in Munich and excursions with 300+ partners such as IMC Trading, JetBrains, and more
-
-#experience(
-  company: "UoA Computer Science Club",
-  role: "Committee member",
-  location: "Adelaide, Australia",
-  technologies: "Web Development, Python, C++",
-  from: "2022 Dec",
-  to: "2024 Nov",
-)
-- Organized workshops and social events for over 600 paid members, sponsored by Jane Street, Atlassian, VivCourt, and more
+- Creating and testing competitive programming problems for the Adelaide University Competitive Programming league (#link("https://aucpl.com/")[#raw("aucpl.com")])
+- An initiative by the club (#link("https://acpc.io")[#raw("acpc.io")]) to introduce competitive programming to university students with workshops and contests
+- Sponsored by Jane Street, Citadel Securities, and IMC
 
 = Skills & Achievements
 
