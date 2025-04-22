@@ -131,7 +131,7 @@
 )
 - Creating and testing competitive programming problems for the Adelaide University Competitive Programming league (#link("https://aucpl.com/")[#raw("aucpl.com")])
 - An initiative by the club (#link("https://acpc.io")[#raw("acpc.io")]) to introduce competitive programming to university students with workshops and contests
-- Sponsored by Jane Street, Citadel Securities, and IMC
+- Prize pool of \$2,400 sponsored by Jane Street, Citadel Securities, and IMC
 
 = Skills & Achievements
 
