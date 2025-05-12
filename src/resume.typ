@@ -13,20 +13,20 @@
 = Education
 
 #education(
-  institution: "Technical University of Munich",
-  degree: "Informatics (Exchange)",
-  location: "Munich, Germany",
-  from: "2024 Apr",
-  to: "Present",
-)
-
-#education(
   institution: "The University of Adelaide",
   degree: "Bachelor of Mathematical and Computer Sciences",
   grade: "GPA: 6.33/7",
   location: "Adelaide, Australia",
   from: "2022 Feb",
   to: "Present",
+)
+
+#education(
+  institution: "Technical University of Munich",
+  degree: "Informatics (Exchange)",
+  location: "Munich, Germany",
+  from: "2024 Apr",
+  to: "2025 Apr",
 )
 
 = Experience
