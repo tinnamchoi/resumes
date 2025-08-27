@@ -76,6 +76,24 @@
 - Helped resolve our staff shortage by reducing the manpower and time required by \~200%, and in so doing beating the deadline
 - Mentored new staff, helping a non-technical audience understand the the basics of Windows AD and Batch scripting
 
+= Open Source Contributions
+
+#project(
+  title: "LLVM",
+  technologies: "C++",
+  project_link: "github.com/llvm/llvm-project",
+)
+- [libc++] Improve `std::filesystem::path::lexically_relative` runtime by up to 40% by avoiding string reallocation (#link("https://github.com/llvm/llvm-project/pull/152964")[#raw("#152964")])
+- [clang] Add diagnostic when scoped enumeration requires an explicit conversion for binary operations (#link("https://github.com/llvm/llvm-project/pull/152698")[#raw("#152698")])
+- [clang] Remove 14+ years old redundant check for scoped enums in shift operators (#link("https://github.com/llvm/llvm-project/pull/152865")[#raw("#152865")])
+
+#project(
+  title: "Rust",
+  technologies: "Rust",
+  project_link: "github.com/rust-lang/rust",
+)
+- [std][BTree] Fix behavior of `::append` to match documentation, `::insert`, and `::extend` (#link("https://github.com/rust-lang/rust/issues/145614")[#raw("#145614")]) (#link("https://github.com/rust-lang/rust/pull/145628")[#raw("#145628")]) (in progress)
+
 = Projects
 
 #project(
@@ -84,7 +102,6 @@
   project_link: "tinnamchoi.github.io/projects/bmca",
 )
 - Developed an octree-based algorithm in C++ to efficiently compress 3D data in $O(N log_8 N)$, optimizing storage and processing
-- Assisting teammates in the implementation of other algorithms such as run-length encoding and Lempel-Ziv compression.
 - Employed agile methodologies for a group of 7 and enforced good Git practices such as using conventional commits
 
 #project(
@@ -96,14 +113,6 @@
 - Inspired by the lack of precision in existing tools, providing a better imagination to reality interface
 
 #project(
-  title: "Hare-Clark C++",
-  technologies: "C++, CMake, Data Structures",
-  project_link: "tinnamchoi.github.io/projects/hcc",
-)
-- Implemented the Hare-Clark electoral system for the Computer Science Club committee to automate our election process
-- Replaces the `hcvote` Python library as previous attempts to use it proved it unwieldy and faulty
-
-#project(
   title: "Negative Base Converter",
   technologies: "Math, Number Theory, JavaScript",
   project_link: "tinnamchoi.github.io/projects/nbc",
@@ -111,35 +120,27 @@
 - Created a converter for negative base numeral systems by researching the mathematical principles behind it
 - Motivated by the lack of existing tools, providing beginners with a better understanding of negative bases
 
-#project(
-  title: "Purchasing Power Parity Calculator",
-  technologies: "JavaScript, CSS",
-  project_link: "tinnamchoi.github.io/projects/pppc",
-)
-- Purchasing power parity is a way to compare how much money can buy in different countries
-- Having multiple countries which I call home, this helps me get a better idea of my finances
-
 = Volunteering
 
 #experience(
   company: "Adelaide Competitive Programming Club",
-  role: "Author",
-  location: "Adelaide, Australia",
-  technologies: "C++, Python",
+  role: "Problemsetter",
+  location: "Australia and New Zealand",
+  technologies: "C++, Rust",
   from: "2025 Feb",
   to: "Present",
 )
-- Creating and testing competitive programming problems for the Adelaide University Competitive Programming league (#link("https://aucpl.com/")[#raw("aucpl.com")])
-- An initiative by the club (#link("https://acpc.io")[#raw("acpc.io")]) to introduce competitive programming to university students with workshops and contests
-- Prize pool of \$2,400 sponsored by Jane Street, Citadel Securities, and IMC
+- Creating and testing competitive programming problems for AllUni (#link("https://alluni.io/")[#raw("alluni.io")]) and AUCPL (#link("https://aucpl.com/")[#raw("aucpl.com")])
+- Competitive programming contests created in collaboration with 20 student clubs across 7 cities in Australia and New Zealand
+- Prize pools of \$5,000 and \$2,400 sponsored by Susquehanna (SIG), Jane Street, Citadel, and IMC
 
 = Skills & Achievements
 
 == Skills & Technologies
 
 #technologies(
-  daily_drivers: "C++, Linux, Git, Just, Typst, GitHub",
-  others: "Python, JavaScript, Atlassian suite, Bash, Rust, LaTeX, HTML, CSS",
+  daily_drivers: "C++, Rust, Linux, Git, Just, Typst, GitHub",
+  others: "Python, JavaScript, Atlassian suite, Bash, LaTeX, HTML, CSS",
 )
 
 #skill(title: "Human languages")[English (native), Cantonese (native), Mandarin (C1), German (A2)]

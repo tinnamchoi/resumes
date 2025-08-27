@@ -7,4 +7,4 @@
   website: "tinnamchoi.github.io",
   linkedin: "tinnamchoi",
 )
-#let subtitle = "HK: Citizen | UK: BNO | AU: 500 / 485 | TW: TARC | DE: D-Visa"
+#let subtitle = "HK: Citizen | UK: BNO | AU: 500 / 485"

@@ -1,10 +1,7 @@
 all: resume letter
 
-watch_resume:
-	typst watch src/resume.typ ./resume.pdf
-
-watch_letter:
-	typst watch src/letter.typ ./letter.pdf
+watch target:
+	typst watch src/{{target}}.typ ./{{target}}.pdf
 
 resume:
 	typst compile src/resume.typ ./resume.pdf
