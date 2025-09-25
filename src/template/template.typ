@@ -141,7 +141,8 @@
 
   parbreak()
 
-  par(first-line-indent: 1em, justify: true)[#body]
+  set par(first-line-indent: 1em, justify: true)
+  [#body]
 
   parbreak()
 

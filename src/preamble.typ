@@ -7,4 +7,4 @@
   website: "tinnamchoi.github.io",
   linkedin: "tinnamchoi",
 )
-#let subtitle = "HK: Citizen | UK: BNO | AU: 500 / 485"
+#let subtitle = [*Working rights: no sponsorship required for Hong Kong, the United Kingdom, and Australia*]

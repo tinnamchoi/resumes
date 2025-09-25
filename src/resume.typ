@@ -41,10 +41,32 @@
 )
 
 #experience(
+  company: "Rust",
+  role: "Individual Contributor",
+  location: "Remote",
+  technologies: "Rust, Standard Library",
+  from: "2025 Aug",
+  to: "Present"
+)
+- [std][BTree] Fix behavior of `::append` to match documentation, `::insert`, and `::extend` (#link("https://github.com/rust-lang/rust/issues/145614")[#raw("#145614")]) (#link("https://github.com/rust-lang/rust/pull/145628")[#raw("#145628")]) (waiting on FCP)
+
+#experience(
+  company: "The LLVM Project",
+  role: "Individual Contributor",
+  location: "Remote",
+  technologies: "C++, Compilers, Semantic Analysis",
+  from: "2025 Jul",
+  to: "Present"
+)
+- [libc++] Improve `std::filesystem::path::lexically_relative` runtime by up to 40% by avoiding string reallocation (#link("https://github.com/llvm/llvm-project/pull/152964")[#raw("#152964")])
+- [clang] Add diagnostic when scoped enumeration requires an explicit conversion for binary operations (#link("https://github.com/llvm/llvm-project/pull/152698")[#raw("#152698")])
+- [clang] Remove 14+ years old redundant check for scoped enums in shift operators (#link("https://github.com/llvm/llvm-project/pull/152865")[#raw("#152865")])
+
+#experience(
   company: "Dassault Systèmes",
   role: "Software Engineer (part-time)",
   location: "Munich, Germany",
-  technologies: "C++, mkmk, Jira, BitBucket, NG Jenkins, Python, Rust",
+  technologies: "C++, Jira, BitBucket, Jenkins, Python, Rust",
   from: "2024 May",
   to: "2025 Mar",
 )
@@ -62,7 +84,6 @@
   to: "2024 Mar",
 )
 - Improved responsiveness and SEO of company landing page, consistently staying on the front page of Google search results
-- Empower student communities and streamlining the logistical processes by building a full-stack contact and media release page
 
 #experience(
   company: "Global Technology Integrator",
@@ -75,24 +96,6 @@
 - Leading a team of 4+ people, spearheaded the automation and parallelization of our tasks such as registry modification
 - Helped resolve our staff shortage by reducing the manpower and time required by \~200%, and in so doing beating the deadline
 - Mentored new staff, helping a non-technical audience understand the the basics of Windows AD and Batch scripting
-
-= Open Source Contributions
-
-#project(
-  title: "LLVM",
-  technologies: "C++",
-  project_link: "github.com/llvm/llvm-project",
-)
-- [libc++] Improve `std::filesystem::path::lexically_relative` runtime by up to 40% by avoiding string reallocation (#link("https://github.com/llvm/llvm-project/pull/152964")[#raw("#152964")])
-- [clang] Add diagnostic when scoped enumeration requires an explicit conversion for binary operations (#link("https://github.com/llvm/llvm-project/pull/152698")[#raw("#152698")])
-- [clang] Remove 14+ years old redundant check for scoped enums in shift operators (#link("https://github.com/llvm/llvm-project/pull/152865")[#raw("#152865")])
-
-#project(
-  title: "Rust",
-  technologies: "Rust",
-  project_link: "github.com/rust-lang/rust",
-)
-- [std][BTree] Fix behavior of `::append` to match documentation, `::insert`, and `::extend` (#link("https://github.com/rust-lang/rust/issues/145614")[#raw("#145614")]) (#link("https://github.com/rust-lang/rust/pull/145628")[#raw("#145628")]) (in progress)
 
 = Projects
 
@@ -140,7 +143,7 @@
 
 #technologies(
   daily_drivers: "C++, Rust, Linux, Git, Just, Typst, GitHub",
-  others: "Python, JavaScript, Atlassian suite, Bash, LaTeX, HTML, CSS",
+  others: "Python, JavaScript, Atlassian suite, Bash, LaTeX, HTML, CSS, etc.",
 )
 
 #skill(title: "Human languages")[English (native), Cantonese (native), Mandarin (C1), German (A2)]
